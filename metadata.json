@@ -1,0 +1,8 @@
+{
+  "name": "Remix RANE HERB - ยาสมุนไพรบาล์มสติ๊ก",
+  "description": "RANE HERB ยาหม่องในรูปแบบบาล์มสติ๊ก สูตรเย็น อโรม่า นวัตกรรมแท่งหมุน พกพาสะดวก ไม่เลอะมือ บรรเทาอาการปวดเมื่อยและคลายกล้ามเนื้อ",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Prompt', 'Plus Jakarta Sans', 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-display: 'Plus Jakarta Sans', 'Prompt', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --color-theme: #a5d6f4;
+    --color-theme-soft: #edf7fd;
+    --color-theme-dark: #125a85;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: #f5faff;
+    color: #0b1c30;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* Custom apothecary scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #edf6fb;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2ddef;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a5d6f4;
+}
+
+/* Soft glow animation */
+@keyframes pulseSubtle {
+  0%, 100% { opacity: 0.95; }
+  50% { opacity: 0.65; }
+}
+
+.animate-subtle-glow {
+  animation: pulseSubtle 4s ease-in-out infinite;
+}
+
